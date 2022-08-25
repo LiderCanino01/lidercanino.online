@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Obrigado</title>
+    <style type="text/css">
+      body {
+        background-image: url("bg.jpeg");
+        background-color: rgba(255, 255, 255, 0.8);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: lighten;
+        font-family: 'Montserrat', sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 50px;
+      }
+      .lead {
+        font-weight: 500;
+        margin-bottom: 50px;
+        font-size: 1.5rem;
+      }
+      #cta {
+        margin-bottom: 50px;
+      }
+      .btn {
+        font-size: 1.7rem;
+        font-family: 'Oswald', sans-serif;
+        white-space: normal;
+        margin-bottom: 50px;  
+      }
+      .under {
+        text-decoration: underline;
+      }
+      .price {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #198754;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h1 class="text-danger font-weight-bold">PARABENS PELA SUAS COMPRAS!</h1>
+          <h3>Para acessar os produtos basta </h3>
+          <h3 class="text-danger font-weight-bold">Acessar Seu Email e Procurar Por Noreply Hotmart</h3>
+          <p class="lead font-weight-bold">Caso tenha feito o pagamento via cartão ou pix</p>
+          <p class="lead">O Acesso é liberado na hora!</p>
+          <p class="lead">Caso tenha optado por boleto basta baixar esses boletos</p>
+          <p class="lead">Imprimir e pagar, lembrando que pode demorar até 2 dias para compensar o boleto</p>
+          <p class="lead">MAIS UMA VEZ PARABENS PELA SUAS COMPRAS! <span class="price">BASTA ACESSAR SEU EMAIL</span>.</p>
+          
+          <!-- Botão 1 -->
+            <div id="cta1" class="mt-4 d-none">
+              <a href="https://gmail.com" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">TOQUE AQUI PARA ACESSAR SEU EMAIL</span>
+                <span class="span-btn2">(ACESSAR SEU EMAIL)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script type="text/javascript">
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 0); // temporização da Call to Action (em milissegundos)
+    </script>      
+</html>
